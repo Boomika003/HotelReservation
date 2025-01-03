@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>complete responsive hotel booking website design tutorial</title>
+
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+   
+<!-- header section starts  -->
+
+<section class="header">
+
+   <div class="flex">
+      <a href="#home" class="logo">Hotels And Resorts</a>
+      <a href="#availability" class="btn">check availability</a>
+      <div id="menu-btn" class="fas fa-bars"></div>
+   </div>
+
+   <nav class="navbar">
+      <a href="#home">home</a>
+      <a href="#about">about</a>
+      <a href="#reservation">reservation</a>
+      <a href="#gallery">gallery</a>
+      <a href="#contact">contact</a>
+      <a href="#reviews">reviews</a>
+   </nav>
+
+</section>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+   <div class="swiper home-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="box swiper-slide">
+            <img src="image1.jpg" alt="">
+            <div class="flex">
+               <h3>luxurious rooms</h3>
+               <a href="#availability" class="btn">check availability</a>
+            </div>
+         </div>
+
+         <div class="box swiper-slide">
+            <img src="image2.jpg" alt="">
+            <div class="flex">
+               <h3>foods and drinks</h3>
+               <a href="#reservation" class="btn">make a reservation</a>
+            </div>
+         </div>
+
+         <div class="box swiper-slide">
+            <img src="image3.jpg" alt="">
+            <div class="flex">
+               <h3>luxurious halls</h3>
+               <a href="#contact" class="btn">contact us</a>
+            </div>
+         </div>
+
+      </div>
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+
+   </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- availability section starts  -->
+
+<section class="availability" id="availability">
+
+   <form action="" method="post">
+      <div class="flex">
+         <div class="box">
+            <p>check in <span>*</span></p>
+            <input type="date" name="check_in" class="input" required>
+         </div>
+         <div class="box">
+            <p>check out <span>*</span></p>
+            <input type="date" name="check_out" class="input" required>
+         </div>
+         <div class="box">
+            <p>adults <span>*</span></p>
+            <select name="adults" class="input" required>
+               <option value="1">1 adult</option>
+               <option value="2">2 adults</option>
+               <option value="3">3 adults</option>
+               <option value="4">4 adults</option>
+               <option value="5">5 adults</option>
+               <option value="6">6 adults</option>
+            </select>
+         </div>
+         <div class="box">
+            <p>childs <span>*</span></p>
+            <select name="childs" class="input" required>
+               <option value="-">0 child</option>
+               <option value="1">1 child</option>
+               <option value="2">2 childs</option>
+               <option value="3">3 childs</option>
+               <option value="4">4 childs</option>
+               <option value="5">5 childs</option>
+               <option value="6">6 childs</option>
+            </select>
+         </div>
+         <div class="box">
+            <p>rooms <span>*</span></p>
+            <select name="rooms" class="input" required>
+               <option value="1">1 room</option>
+               <option value="2">2 rooms</option>
+               <option value="3">3 rooms</option>
+               <option value="4">4 rooms</option>
+               <option value="5">5 rooms</option>
+               <option value="6">6 rooms</option>
+            </select>
+         </div>
+
+      </div>  
+      <input type="submit" value="check availability" name="check" class="btn">
+   </form>
+
+</section>
+
+<!-- availability section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+   <div class="row">
+      <div class="image">
+         <img src="staff.jpg" alt="">
+      </div>
+      <div class="content">
+         <h3>best staff</h3>
+         <p>Hotel staff are the backbone of any hospitality establishment, 
+            embodying the service and operational excellence that define a hotel's reputation</p>
+         <a href="#reservation" class="btn">make a reservation</a>
+      </div>
+   </div>
+
+   <div class="row revers">
+      <div class="image">
+         <img src="food.jpg" alt="">
+      </div>
+      <div class="content">
+         <h3>best foods</h3>
+         <p>Full board includes the three main meals: breakfast, lunch, and dinner, which are usually served as buffets.</p>
+         <a href="#contact" class="btn">contact us</a>
+      </div>
+   </div>
+
+   <div class="row">
+      <div class="image">
+         <img src="swimming.jpg" alt="">
+      </div>
+      <div class="content">
+         <h3>swimming pool</h3>
+         <p>Provide a Luxurious Experience for Guests – Pools can be an enjoyable and luxurious
+             feature at hotels, allowing guests to relax and enjoy their stay.</p>
+         <a href="#availability" class="btn">check availability</a>
+      </div>
+   </div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- services section starts  -->
+
+<section class="services">
+
+   <div class="box-container">
+
+      <div class="box">
+         <img src="food2.avif" alt="">
+         <h3>food & drinks</h3>
+         <p>Eating and drinking is an essential part of the daily routine. More than that, 
+         it is a basic need to keep the functionality of the body.</p>
+      </div>
+
+      <div class="box">
+         <img src="OUTDOOR.jpg" alt="">
+         <h3>outdoor dining</h3>
+         <p>Open-air dining allows your customers to enjoy a nice meal 
+            or drink with an outdoor ambiance, fresh air and access to nature. </p>
+      </div>
+
+      <div class="box">
+         <img src="BEACH.webp" alt="">
+         <h3>beach view</h3>
+         <p> Beach nourishment can aid environmental restoration by providing habitat for birds, shellfish and sea turtles. </p>
+      </div>
+
+      <div class="box">
+         <img src="DECORATIONS.avif" alt="">
+         <h3>decorations</h3>
+         <p>: A well-decorated home can have a positive impact on your mood and well-being. Colors, lighting, and decor choices
+             can influence your emotional state and create a more pleasant atmosphere</p>
+      </div>
+
+      <div class="box">
+         <img src="SWIMMMINGPOOL.jpg" alt="">
+         <h3>swimming pool</h3>
+         <p>Swimming is an excellent cardiovascular workout, which strengthens both the heart and the lungs. 
+            </p>
+      </div>
+
+      <div class="box">
+         <img src="BEACHRESORT.jpg" alt="">
+         <h3>resort beach</h3>
+         <p>A beach resort is a place where you can go to relax and enjoy the sun and the water</p>
+      </div>
+
+   </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- reservation section starts  -->
+
+<section class="reservation" id="reservation">
+
+   <form action="" method="post">
+      <h3>make a reservation</h3>
+      <div class="flex">
+         <div class="box">
+            <p>check in <span>*</span></p>
+            <input type="date" name="check_in" class="input" required>
+         </div>
+         <div class="box">
+            <p>check out <span>*</span></p>
+            <input type="date" name="check_out" class="input" required>
+         </div>
+         <div class="box">
+            <p>adults <span>*</span></p>
+            <select name="adults" class="input" required>
+               <option value="1">1 adult</option>
+               <option value="2">2 adults</option>
+               <option value="3">3 adults</option>
+               <option value="4">4 adults</option>
+               <option value="5">5 adults</option>
+               <option value="6">6 adults</option>
+            </select>
+         </div>
+         <div class="box">
+            <p>childs <span>*</span></p>
+            <select name="childs" class="input" required>
+               <option value="-">0 child</option>
+               <option value="1">1 child</option>
+               <option value="2">2 childs</option>
+               <option value="3">3 childs</option>
+               <option value="4">4 childs</option>
+               <option value="5">5 childs</option>
+               <option value="6">6 childs</option>
+            </select>
+         </div>
+         <div class="box">
+            <p>rooms <span>*</span></p>
+            <select name="rooms" class="input" required>
+               <option value="1">1 room</option>
+               <option value="2">2 rooms</option>
+               <option value="3">3 rooms</option>
+               <option value="4">4 rooms</option>
+               <option value="5">5 rooms</option>
+               <option value="6">6 rooms</option>
+            </select>
+         </div>
+      </div>
+      <input type="submit" value="check availability" name="check" class="btn">
+      <input type="submit" value="update data" name="update" class="btn">
+      <input type="submit" value="clear data" name="clear" class="btn">
+   </form>
+
+</section>
+
+<!-- reservation section ends -->
+
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+   <div class="swiper gallery-slider">
+      <div class="swiper-wrapper">
+         <img src="SWIPE1.jpg" class="swiper-slide" alt="">
+         <img src="SWIPE2.jpg" class="swiper-slide" alt="">
+         <img src="SWIPE3.jpg" class="swiper-slide" alt="">
+         <img src="SWIPE4.jpg" class="swiper-slide" alt="">
+         <img src="SWIPE5.jpg" class="swiper-slide" alt="">
+         <img src="SWIPE6.jpg" class="swiper-slide" alt="">
+      </div>
+      <div class="swiper-pagination"></div>
+   </div>
+
+</section>
+
+<!-- gallery section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+   <div class="row">
+
+      <form action="" method="post">
+         <h3>send us message</h3>
+         <input type="text" name="name" required maxlength="50" placeholder="enter your name" class="box">
+         <input type="email" name="email" required maxlength="50" placeholder="enter your email" class="box">
+         <input type="number" name="number" required maxlength="10" min="0" max="9999999999" placeholder="enter your number" class="box">
+         <textarea name="msg" class="box" required maxlength="1000" placeholder="enter your message" cols="30" rows="10"></textarea>
+         <input type="submit" value="send message" name="send" class="btn">
+      </form>
+
+      <div class="faq">
+         <h3 class="title">frequently asked questions</h3>
+         <div class="box active">
+            <h3>how to cancel?</h3>
+            <p>For existing bookings, you can now: Change your dates, Make a Special Request, 
+                Cancel your Booking or Request a copy of your Hotel Voucher.</p>
+         </div>
+         <div class="box">
+            <h3>is there any vacancy?</h3>
+            <p>1.Gain any essential certification. ...<br>
+                2.Extra experience you can include on your CV. ...<BR>
+                3.Practise these skills at home. ...<BR>
+                4.Get experience through volunteering. ...<BR>
+                5.Apply for these entry level jobs. ...<BR>
+                6.Pick the right jobs to apply for and target your resume to the description.</p>
+         </div>
+         <div class="box">
+            <h3>what are payment methods?</h3>
+            <p>Modes of payment in hotel reservations are credit card, debit card, QR code, UPI, pay later, or any other.</p>
+         </div>
+         <div class="box">
+            <h3>how to claim coupons codes?</h3>
+            <p>Go to the checkout page and look for the option to 'Apply a coupon' 
+                below the payment details and before your personal information</p>
+         </div>
+         <div class="box">
+            <h3>what are the age requirements?</h3>
+            <p>The primary guest must be at least 18 years of age to be able to check into the hotel. It is mandatory for guests to 
+                present a valid photo identification document at the time of check-in.</p>
+         </div>
+      </div>
+
+   </div>
+
+</section>
+
+<!-- contact section ends -->
+
+<!-- reviews section starts  -->
+
+<section class="reviews" id="reviews">
+
+   <div class="swiper reviews-slider">
+
+      <div class="swiper-wrapper">
+         <div class="swiper-slide box">
+            <img src="logo1.jpg" alt="">
+            <h3>Jeyadevan.N.M</h3>
+            <p>From my experience,it is the best hotel i ever sawn</p>
+         </div>
+         <div class="swiper-slide box">
+            <img src="logo2.jpg" alt="">
+            <h3>Happila .T</h3>
+            <p>I gave 4.5 starts for maintaing the hotel with clean floors and rooms</p>
+         </div>
+         <div class="swiper-slide box">
+            <img src="logo3.jpeg" alt="">
+            <h3>Boomika E</h3>
+            <p>Maya was really kind and helpfull helping me to have some information from my hotel. 
+                This is a really good service and I strongly recomend Athotel</p>
+         </div>
+         <div class="swiper-slide box">
+            <img src="logo4.jpg" alt="">
+            <h3>Jayasri.S</h3>
+            <p>Great support service, easy to reach, helpful and competent staff. Brian helped us a lot and listened to out needs and 
+            proactive acted on it and helped us. Thanks a lot guys, amazing job and great service.</p>
+         </div>
+         <div class="swiper-slide box">
+            <img src="logo5.jpg" alt="">
+            <h3>Pradhiksha .S</h3>
+            <p>An easy booking experience that saved over 1000 vs booking directly with our hotel. When I needed input regarding the area we were 
+                staying the @hotel group sent me back an email very quickly with some ideas for us.</p>
+         </div>
+         <div class="swiper-slide box">
+            <img src="logo6.jpg" alt="">
+            <h3>keerthana s</h3>
+            <p>I am very delighted and extremely grateful for the great customer service and very helpful people @hotel.com.
+                Nihal and others team members were very kind, fast to reply and very accommodating to my questions 
+                and willing to help with all my requests</p>
+         </div>
+      </div>
+
+      <div class="swiper-pagination"></div>
+   </div>
+
+</section>
+
+<!-- reviews section ends  -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+   <div class="box-container">
+
+      <div class="box">
+         <a href="tel:7667999878"><i class="fas fa-phone"></i> +766-799-9878</a>
+         <a href="tel:8220389244"><i class="fas fa-phone"></i> +822-038-9244</a>
+         <a href="mailto:pradhiksha220@gmail.com"><i class="fas fa-envelope"></i>pradhiksha220@gmail.com </a>
+         <a href="#"><i class="fas fa-map-marker-alt"></i> coimbatore,TamilNadu-641032 - </a>
+      </div>
+
+      <div class="box">
+         <a href="#home">home</a>
+         <a href="#about">about</a>
+         <a href="#reservation">reservation</a>
+         <a href="#gallery">gallery</a>
+         <a href="#contact">contact</a>
+         <a href="#reviews">reviews</a>
+      </div>
+
+      <div class="box">
+         <a href="#">facebook <i class="fab fa-facebook-f"></i></a>
+         <a href="#">twitter <i class="fab fa-twitter"></i></a>
+         <a href="#">instagram <i class="fab fa-instagram"></i></a>
+         <a href="#">linkedin <i class="fab fa-linkedin"></i></a>
+      </div>
+
+   </div>
+
+   <div class="credit">&copy; copyright @ 2024by mr.kce.ac.in| all rights reseved!</div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+<script src="scripts.js"></script>
+
+</body>
+</html>
